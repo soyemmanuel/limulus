@@ -67,32 +67,34 @@ img{
 }
 
 
-.menu__principal a{
-	padding: 2.5rem 2.5rem 2.5rem .5rem ;
-	color: #000;
-	display: block;
-	text-decoration: none;
+	.menu__principal ul{
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+	}
+
+		.menu__principal ul li{
+			display: inline-block;
+			vertical-align: middle;
+			text-align: center;
+		}
+
+			.menu__principal ul li:first-child{
+				display: block;
+				text-align: left;
+			}
+
+		.menu__principal a{
+			padding: 2.5rem 2.5rem 2.5rem .5rem ;
+			color: #000;
+			display: block;
+			text-decoration: none;
+		}
+
+
+.menu__movil{
+	cursor: pointer;
 }
-
-.menu__principal ul{
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-}
-
-
-
-.menu__principal ul li{
-	display: inline-block;
-	vertical-align: middle;
-	text-align: center;
-}
-
-.menu__principal ul li:first-child{
-	display: block;
-	text-align: left;
-}
-
 
 .close__menu{
 	margin: .5rem;
@@ -129,35 +131,35 @@ img{
 	align-items: center;
 }
 
-.noticias__item{
-	position: relative;
-	max-width: 50%;
-	margin: .5rem;
-	max-height: 400px;
-	overflow: hidden;
-}
+	.noticias__item{
+		position: relative;
+		max-width: 50%;
+		margin: .5rem;
+		max-height: 400px;
+		overflow: hidden;
+	}
 
 
-.noticias__item:first-child{
-	width: 100%;
-	max-width: 100%;
-}
+	.noticias__item:first-child{
+		width: 100%;
+		max-width: 100%;
+	}
 
-.noticias__item:first-child img{
-	width: 100%;
-}
+	.noticias__item:first-child img{
+		width: 100%;
+	}
 
 
-.noticias__item--info{
-	color: #fff;
-	position: absolute;
-	top: 0;
-	left: 0;
-	text-align: left;
-	width: 90%;
-	font-size: 70%;
-	padding-left: .5rem;
-}
+	.noticias__item--info{
+		color: #fff;
+		position: absolute;
+		top: 0;
+		left: 0;
+		text-align: left;
+		width: 90%;
+		font-size: 70%;
+		padding-left: .5rem;
+	}
 
 
 
@@ -171,12 +173,12 @@ img{
 	background-color: #000;
 }
 
-.footer__principal a{
-	color: #fff;
-	display: inline-block;
-	vertical-align: bottom;
-	text-decoration: none;
-}
+	.footer__principal a{
+		color: #fff;
+		display: inline-block;
+		vertical-align: bottom;
+		text-decoration: none;
+	}
 
 
 
